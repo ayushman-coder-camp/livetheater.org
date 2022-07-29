@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@541&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+}
+
+.login-box{
+    top: 187%;
+    left: 40%;
+    transform: translate(187%,40%);
+    background-color: yellow;
+    padding: 10px;
+    width: 20%;
+}
+
+@media screen and (max-width: 625px) {
+    .login-box{
+        width: 5%;
+        background-color: white;
+    }
+}

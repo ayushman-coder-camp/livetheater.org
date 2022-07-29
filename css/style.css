@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@541&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+/*******Navagation Bar*******/
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px solid gray;
+}
+
+nav .logo{
+    display: flex;
+}
+
+nav .logo img{
+    width: 30%;
+}
+
+nav .logo h2{
+    margin-left: 10px;
+    font-size: 40px;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li a{
+    padding: 15px;
+    font-size: 33px;
+    transition: 0.6s ease;
+    color: #000;
+}
+
+nav ul li a:hover{
+    background-color: #00ffff;
+    color: #000;
+}
+/*******Main*******/
+
+#top{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/*******Ratings*******/
+
+#ratings .header2 .image img{
+    width: 10%;
+}
+
+#ratings .header2{
+    text-align: center;
+}
+
+#ratings .header2 .text h1{
+    font-size: 45px;
+    text-decoration: underline;
+}
+
+#movies{
+    top: 90%;
+    transform: translateY(0%);
+}
+
+#movies .header3 .text2 h1{
+    font-size: 45px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+#movies .header3 .text2 h2{
+    font-size: 25px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+#movies .movies img{
+    width: 10%;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.download{
+    top: 40%;
+    transform: translateY(40%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.download .text h1{
+    font-size: 42px;
+}
+
+.download-link{
+    font-size: 30px;
+    text-decoration: none;
+}
